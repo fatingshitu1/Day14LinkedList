@@ -14,7 +14,16 @@ public class LinkedList <T> {
             head = newNode;
         }
     }
-
+      public void append (T data) {
+          Node<T> newNode = new Node(data);
+          if (head == null) {
+              head = newNode;
+              tail = newNode;
+          } else {
+              tail.next = newNode;
+              tail = newNode;
+          }
+      }
     public void display() {
         Node<T> temp = head;
         while (temp != null) {

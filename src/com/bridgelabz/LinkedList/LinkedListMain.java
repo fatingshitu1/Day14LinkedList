@@ -10,6 +10,13 @@ public class LinkedListMain {
 
 
         linkedList1.display();
+        System.out.println();
+
+
+        LinkedList<Integer>LinkedList2 = new LinkedList();
+        LinkedList2.append(56);
+        LinkedList2.append(30);
+        LinkedList2.append(70);
     }
 }
 

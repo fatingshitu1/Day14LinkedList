@@ -7,8 +7,13 @@ public class LinkedListMain {
         linkedList1.push(30);
         linkedList1.push(56);
 
-
         linkedList1.display();
+
+        // deleting the last Element of linkedlist
+
+        System.out.println(linkedList1.popLast());
+        linkedList1.display();
+        System.out.println();
 
         LinkedList<Integer>LinkedList2 = new LinkedList();
         LinkedList2.append(56);
@@ -16,6 +21,7 @@ public class LinkedListMain {
         LinkedList2.append(70);
 
         LinkedList2.display();
+        // deleting First Element of linked list
 
         System.out.println(LinkedList2.pop());
         LinkedList2.display();
@@ -40,4 +46,5 @@ public class LinkedListMain {
         LinkedList3.display();
     }
 }
+
 

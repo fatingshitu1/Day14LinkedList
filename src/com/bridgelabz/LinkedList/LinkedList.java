@@ -37,8 +37,17 @@ public class LinkedList <T> {
             temp = temp.next;
         }
         System.out.println();
-
-}
+    }
+    public T popLast(){
+        T popData = tail.data;
+        Node<T> temp = head;
+        while (temp.next != tail){
+            temp = temp.next;
+        }
+        temp.next = null;
+        tail = temp;
+        return popData;
+    }
 
     public Node<T> search(T searchData) {
         Node<T> temp = head;
@@ -62,4 +71,3 @@ public class LinkedList <T> {
         return false;
     }
 }
-

@@ -17,6 +17,10 @@ public class LinkedListMain {
 
         LinkedList2.display();
 
+        System.out.println(LinkedList2.pop());
+        LinkedList2.display();
+        System.out.println();
+
         LinkedList<Integer>LinkedList3 = new LinkedList();
         LinkedList2.push(70);
         LinkedList2.push(30);

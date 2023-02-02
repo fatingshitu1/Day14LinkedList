@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daf5da1a-60e2-4fe5-ab4f-0a4fedd6aac4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/algorithmprogram/StaticFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/hashtable/HashTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/hashtable/HashTableMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/hashtable/MyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/hashtable/MyNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/stackandqueue/LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/stackandqueue/LinkedListMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/stackandqueue/Stack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/LinkedList/LinkedListMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/LinkedList/LinkedListMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/LinkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day14LinkedList/com/bridgelabz/LinkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/LinkedListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +39,39 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.bridgelabz.stackandqueue.LinkedListMain">
+  <component name="RunManager" selected="Application.StaticFunction">
     <configuration name="LinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.linkedlist.LinkedListMain" />
       <module name="Day14LinkedList" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bridgelabz.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumberRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.algorithmprogram.PrimeNumberRange" />
+      <module name="Day14LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.algorithmprogram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.algorithmprogram.StaticFunction" />
+      <module name="Day14LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.algorithmprogram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticFunction" />
+        <item itemvalue="Application.PrimeNumberRange" />
         <item itemvalue="Application.com.bridgelabz.stackandqueue.LinkedListMain" />
         <item itemvalue="Application.LinkedListMain" />
         <item itemvalue="Application.com.bridgelabz.datastructure.LinkedListMain" />
@@ -111,20 +125,5 @@
       <updated>1674968560228</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bridgelabz/stackandqueue/LinkedListMain.java</url>
-          <line>3</line>
-          <properties class="com.bridgelabz.stackandqueue.LinkedListMain" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

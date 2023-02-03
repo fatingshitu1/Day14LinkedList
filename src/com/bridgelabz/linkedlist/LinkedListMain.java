@@ -9,7 +9,7 @@ public class LinkedListMain {
 
         linkedList1.display();
 
-        // deleting the last Element of linkedlist
+        // deleting the last Element of linked-list
 
         System.out.println(linkedList1.popLast());
         linkedList1.display();
